@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Fruit Shop Landing Page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="header-content-div">
+        <a href="#home-sec">
+          <img
+            src="1711796183878.jfif"
+            alt="Company Logo"
+            id="header-img"style="width: 200px;height:50px;"
+        /></a>
+        <nav id="nav-bar">
+          <a href="#about" class="nav-link">ABOUT</a>
+          <a href="#varieties" class="nav-link">SKILLS</a>
+          <a href="#our-service" class="nav-link">OUR SERVICE</a>
+          <a href="#benefits" class="nav-link">MOTIVATIONS</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="home-sec" class="flexible home-sec">
+        <div class="eye-grabber-img">
+          <img src="img.jfif" alt="Image of Apples" />
+        </div>
+        <div class="eye-grabber">
+          <h1>Khalique Ur Rehman</h1>
+          <h2>
+            Don’t let the bad days make you think you have a bad life.
+          </h2>
+          <button class="btn" onclick="window.location.href = '#contact';">
+            Contact Me
+          </button>
+        </div>
+      </section>
+      <section id="about" class="sec-padding">
+        <h3 class="section-heading">ABOUT US</h3>
+        <div class="sec-content-div flexible">
+          <p>
+            Welcome to our creative corner! We are a dynamic group of classmates united by a passion for web design. With diverse skills and a collaborative spirit, we transform ideas into visually stunning and user-friendly websites. Our mission is to innovate and inspire through every project we undertake. Together, we push the boundaries of creativity and functionality. Let's create something extraordinary!
+          </p>
+          <img src="pic.jpg" alt="A man plucking apples from the tree" />
+        </div>
+      </section>
+      <section id="varieties" class="sec-padding">
+        <h3 class="section-heading">SKILLS</h3>
+        <div class="sec-content-div flexible">
+          <div class="tile">
+            <img src="html.png" alt="photo of amber apples" />
+            <h4>HTML  05</h4>
+            <p>
+              HTML (HyperText Markup Language) is the standard language used to create and design webpages.  .
+            </p>
+          </div>
+          <div class="tile">
+            <img
+              src="css.png"
+              alt="photo of american trel apples"
+            />
+            <h4>CSS 03</h4>
+            <p>
+              CSS (Cascading Style Sheets): CSS is a stylesheet language used to describe the presentation of a document written in HTML. 
+            </p>
+          </div>
+          <div class="tile">
+            <img src="sql.png" alt="photo of red delicious apple" />
+            <h4>SQL SERVER</h4>
+            <p>
+              SQL (Structured Query Language): SQL is a standardized language used to manage and manipulate relational databases.
+            </p>
+          </div>
+          <div class="tile">
+            <img src="net.jfif" alt="photo of Maharaej apples" />
+            <h4>.NET</h4>
+            <p>
+              .NET is a software development framework created by Microsoft that supports the building and running of applications on Windows
+            </p>
+          </div>
+          <div class="tile">
+            <img src="c++.png" alt="photo of Hazratbael apples" />
+            <h4>C++</h4>
+            <p>
+              C++: C++ is a powerful, high-performance programming. 
+            </p>
+          </div>
+          <div class="tile">
+            <img src="angular.png" alt="photo of Golden Delicious apples" />
+            <h4>Angular</h4>
+            <p>
+              Angular is a popular open-source web application framework developed by Google. .  
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="our-service" class="sec-padding">
+        <h3 class="section-heading">OUR SERVICE</h3>
+        <div class="sec-content-div">
+          <div class="bars">
+            <div class="icon-container">
+              <img src="https://i.ibb.co/w6H542X/Fresh.png" alt="" />
+            </div>
+            <div class="txt-container">
+              <h5>Responsive Web Design</h5>
+              <p>This service ensures that websites are optimized for all devices, including desktops, tablets, and smartphones.</p>
+            </div>
+          </div>
+          <div class="bars">
+            <div class="icon-container">
+              <img src="https://i.ibb.co/FKNq4Qr/delivered.png" alt="" />
+            </div>
+            <div class="txt-container">
+              <h5>UI/UX Design</h5>
+              <p>
+                UI (User Interface) and UX (User Experience) design services focus on 
+                creating visually appealing and user-friendly interfaces.
+              </p>
+            </div>
+          </div>
+          <div class="bars">
+            <div class="icon-container">
+              <img src="https://i.ibb.co/HHQK1wV/happy.png" alt="" />
+            </div>
+            <div class="txt-container">
+              <h5>E-commerce Website Design</h5>
+              <p>This service specializes in designing and developing online stores
+                that are secure, easy to navigate, and optimized for sales.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="benefits" class="sec-padding">
+        <h3 class="section-heading">MOTIVATIONS</h3>
+        <div class="sec-content-div flexible">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/meOWV1w2GE8?si=Ef_oLqfNw5jptiht" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </section>
+      <section class="sec-padding" id="contact">
+        <h3 class="section-heading">CONTACT</h3>
+        <div class="sec-content-div flexible">
+          <h6>Get in touch to bring your web design ideas to life! :</h6>
+          <form
+            id="form"
+            action="https://www.freecodecamp.com/email-submit"
+            method="POST"
+          >
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Your Email Address"
+              required
+            />
+            <input type="submit" class="btn" id="submit" value="Know More" />
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      Created by
+      <a href="#">Khalique Ur Rehman</a>
+    </footer>
+  </body>
+</html>
